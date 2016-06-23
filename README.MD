@@ -1,13 +1,12 @@
----
-title: Getting and Cleaning Data README
----
-# <a name="intro"></a>Introduction
+# Getting and Cleaning Data README
+
+## <a name="intro"></a>Introduction
 The purpose  of this project is to demonstrate an ability to collect, work with, and clean a data set.</br>
 The [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI HAR Dataset.zip) data set contains a set of files, a subset of which will be used in this analysis (see [<b>Files</b>](#files) section below).</br>
 The [<b>Analysis Script</b>](#script) section describes how the data is acquired and cleaned.</br>
 Finally, the steps for generating a tidy data set is outlined in the [<b>Creating the Tidy Data File</b>](#tidy) section.
 
-# <a name="files"></a>Files
+## <a name="files"></a>Files
 <b>Common Files</b>
 <li><code>features.txt</code> - List of all features</li>
 <li><code>activity_labels.txt</code> - Links the class labels with their activity name</li>
@@ -24,7 +23,7 @@ Finally, the steps for generating a tidy data set is outlined in the [<b>Creatin
 </br>
 [[back to top]](#intro)
 
-# <a name="script"></a>Analysis Script
+## <a name="script"></a>Analysis Script
 
 The <b>run_analysis.R</b> script carries out the following:
 
@@ -46,7 +45,7 @@ The <b>run_analysis.R</b> script carries out the following:
 </br>
 [[back to top]](#intro)
 
-# <a name="tidy"></a>Creating the Tidy Data File
+## <a name="tidy"></a>Creating the Tidy Data File
 1. Source file <code>run_analysis.R</code>
 2. Call function <code>run_analysis(x)</code>, where <code>x</code> is the working directory
 3. Tidy data file <b>tidydata.txt</b> is created in the defined working directory

@@ -1,8 +1,6 @@
----
-title: "Getting and Cleaning Data Codebook"
----
+# Getting and Cleaning Data Codebook
 
-# Identifiers
+## Identifiers
 <li><code>subject</code> - Subjects who performed a set of activities</li>
 </br>
 <b>Range:</b> 1 - 30
@@ -18,7 +16,7 @@ SITTING - 4</br>
 STANDING - 5</br>
 LAYING - 6</br>
 
-# Measurements
+## Measurements
 <b>Values:</b> Average for each <code>activity</code> and each <code>subject</code></br>
 <b>Variables:</b> 79</br>
 
@@ -40,7 +38,7 @@ LAYING - 6</br>
 <li><code>freq-BodyGyroMagnitude</code> Mean & Std & MeanFreq</li>
 <li><code>freq-BodyGyroJerkMagnitude</code> Mean & Std & MeanFreq</li>
 
-## Measured Variable Names
+### Measured Variable Names
 Variable names are made descriptive based on the following convention:</br>
 <code>domain</code>-
 <code>component</code>
@@ -57,13 +55,13 @@ Examples:</br>
 <code>time-BodyAccelJerkMagnitude-Mean</code></br>
 <code>freq-BodyGyro-MeanFreq-Y</code></br>
 
-### Extracted Measured Variables for Analysis
+#### Extracted Measured Variables for Analysis
 Variables extracted from the [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI HAR Dataset.zip) data set are:
 <li><code>-Mean</code> - from <b>mean()</b>, the mean value</li>
 <li><code>-Std</code> - from <b>std()</b>, the standard deviation</li>
 <li><code>-MeanFreq</code> - from <b>meanFreq()</b>, the weighted average of the frequency components to obtain a mean frequency</b>
 
-### Other Measured Variable Name Components
+#### Other Measured Variable Name Components
 <li><code>time-</code> - time domain</li>
 <li><code>freq-</code> - frequency domain</li>
 <li><code>Body</code> - body component</li>
