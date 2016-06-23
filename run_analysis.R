@@ -1,6 +1,6 @@
 ################################################################################
 
-## Getting and Cleaning Data Assignment 3
+## Getting and Cleaning Data Assignment
 ## Evelyn B.
 ## 23 June 2016
 
